@@ -1,0 +1,56 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <style>
+
+        body {
+            background: rgb(204,204,204);
+        }
+
+        .Columns {
+            width: 210mm;
+            height: 297mm;
+            margin: auto;
+            display: flex;
+        }
+
+
+
+
+        #container {
+            display: flex; /* or inline-flex */
+            flex-direction: row /*row-reverse | column | column-reverse*/;
+            align-items: stretch;
+        }
+
+        #colonna_sinistra {
+            background-color: #d1c1b8;
+            display: flex;
+            flex-direction: column;
+            width: 33%;
+        }
+
+        #colonna_destra {
+            background-color: #e3e1e2;
+            display: flex;
+            flex-direction: column;
+            width: 67%;
+        }
+    </style>
+</head>
+<body>
+    <div id="container">
+        <div id="colonna_sinistra"> Poi lo riempiamo</div>
+
+        <div id="colonna_destra"> dopo riempiamo</div>
+    </div>
+
+    <page size="A4"></page>
+    <page size="A4"></page>
+
+
+
+</body>
+</html>
+
+
