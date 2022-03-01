@@ -1,0 +1,33 @@
+﻿:root {
+    --skill-bar-color: var(--orange);
+    --left-column-color: var(--seagreen);
+    --orange: #ee9b00;
+    --seagreen: #005f73;
+    --page-background: white;
+    --light-gray: #EEE;
+    --dark-gray: #444;
+    --dark-green: #005f73;
+    --green: #0a9396;
+    --light-green: #94d2bd;
+    --dark-orange: #ee9b00;
+    --light-orange: #e9d8a6;
+}
+
+body {
+    background: rgb(204,204,204);
+    font-size: 16px;
+    font-family: sans-serif;
+}
+
+#columns {
+    width: 210mm;
+    height: 297mm;
+    margin: 0.5cm auto;
+    display: flex;
+    box-shadow: 0 0 0.5cm rgba(0,0,0,0.5);
+}
+
+@font-face {
+    font-family: 'medieval';
+    src: url('../Medieval_Sorcerer_Ornamental.ttf') format('truetype');
+}

@@ -1,0 +1,13 @@
+.progress {
+    text-align: left;
+    width: 95%;
+}
+
+.progress-bar {
+    background-color: var(--skill-bar-color);
+    color: black;
+    border-radius: 0.25rem;
+    align-content: flex-start;
+    text-align: left !important;
+    margin-left:2px;
+}

@@ -1,0 +1,10 @@
+﻿#profileImage {
+    width: 5cm;
+    height: 5cm;
+    margin: 0.5cm;
+    margin-top: 1cm;
+    border-style: solid;
+    border-radius: 50%;
+    border-width: 3px;
+    border-color: white;
+}

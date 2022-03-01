@@ -1,0 +1,36 @@
+﻿#bottommost {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 3;
+    font-size: .67em;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+#containerPlaceAndSignature, #containerMailAndNumber {
+    display: flex;
+    justify-content: space-between;
+}
+
+#Mail {
+    flex-grow: 3;
+}
+
+#place, #signature, #number {
+    flex-grow: 1;
+}
+
+::marker {
+    color: var(--dark-green);
+    font-size: 20px;
+}
+
+#bottommost p::first-letter {
+    font-family: medieval;
+    font-weight: lighter;
+    font-size: 1.6em;
+}
+
+.table-striped {
+    font-size: 12px;
+}
